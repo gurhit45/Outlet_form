@@ -1,0 +1,74 @@
+label {
+  font-weight: bold;
+  color: #fff;
+}
+input[type="email"],
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+  padding: 0.65rem 0.5rem;
+  font-size: 1rem;
+  border: 2px solid #edf2f7;
+  background-color: #f7fafc;
+  color: #2d3748;
+  border-radius: 10px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 400px;
+  margin-bottom: 18px;
+}
+select {
+  -webkit-appearance: none;
+  appearance: none;
+  box-sizing: border-box;
+  padding: 0.65rem 0.5rem;
+  font-size: 1rem;
+  border: 2px solid #edf2f7;
+  border-radius: 10px;
+  color: #4a5568;
+  height: auto;
+  background-color: #f7fafc;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 125.304 125.304"><path d="M62.652 103.895L0 21.41h125.304" fill="%23343334"/></svg>');
+  background-repeat: no-repeat;
+  background-size: 1rem;
+  background-position: center right 0.5rem;
+}
+.customLabel {
+  display: block;
+  margin-bottom: 12px;
+}
+input[type="submit"] {
+  background-color: white;
+  border: 2px solid white;
+  color: #2d3748;
+  padding: 0.5rem 1.25rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+}
+form {
+  text-align: center;
+  padding: 24px 0;
+}
+table {
+  margin: auto;
+}
+table > caption {
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+table th {
+  color: #fff;
+}
+.mb-24 {
+  margin-bottom: 24px;
+}
+.errorMsg {
+  color: #f00;
+  margin-bottom: 12px;
+}
